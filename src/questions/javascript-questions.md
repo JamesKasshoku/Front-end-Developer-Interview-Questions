@@ -5,6 +5,10 @@ permalink: /questions/javascript-questions/index.html
 ---
 
 * Explain event delegation.
+  * Event delegation is a technique used to listen for an event on child elements of a parent by setting the event lister on the parent instead of each child individually. An example is an unordered list of child elements wrapped by their parent UL element with an event listener on the parent UL element such as the click event, allowing us to run some code whenever one of those child UL elements is clicked.
+
+See: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_delegation
+
 * Explain how `this` works in JavaScript.
   * Can you give an example of one of the ways that working with `this` has changed in ES6?
 * Explain how prototypal inheritance works.
